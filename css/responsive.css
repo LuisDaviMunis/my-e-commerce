@@ -1,0 +1,24 @@
+@media (max-width:661px){
+    .Produto-see{
+        width: 1000px;
+        height: 1400px;
+        background-color: #fff;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width :900px){
+    body{
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:912px) and (min-width:390px){
+    body{
+        width:100%;
+    }
+
+    .search-box{
+        align-items: center;
+    }
+}
